@@ -1,0 +1,176 @@
+/* Estilo para tablets */
+
+
+
+@media only screen and (min-width: 788px) and (max-width: 979px) {
+    .cta a {
+        position: absolute;
+        width: 100%;
+    }
+    .learn {
+        max-height: 55vh;
+        text-align: center;
+    }
+    .list-learning {
+        margin: 3% auto;
+    }
+    .about-me .container {
+        position: relative;
+        z-index: 2;
+    }
+    .about-img {
+        margin-top: -60%;
+    }
+}
+
+/* Estilo para smartphone */
+
+@media only screen and (max-width: 787px) {
+
+    .container {
+        width: 90vw;
+    }
+
+    .cta {
+        position: absolute;
+        width: 91%;
+    }
+
+    .intro .cta {
+        display: none;
+    }
+
+    .intro {
+        height: 100%;
+        /* Parallax */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+
+    }
+
+    .intro-txt {
+        width: 85%;
+    }
+
+    .intro-img {
+        display: none;
+    }
+
+    .learn {
+        max-height: 100%;
+        text-align: center;
+    }
+
+    #learn-linhas {
+        display: none;
+    }
+
+    .list-learning {
+        margin: 3% auto;
+    }
+
+    .list-learning li {
+        margin: 0 auto;
+        width: 80%;
+    }
+
+    .list-learning img {
+        visibility: visible;
+    }
+
+    .about {
+        min-height: 100vh;
+        max-height: 100%;
+    }
+
+    .about img {
+        width: 100%;
+    }
+
+    .about-me {
+        height: 100%;
+    }
+    
+    .about-me h2 {
+        text-align: center;
+    }
+
+    .preview-text {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .preview-video {
+        width: 100%;
+        margin: 5% auto;
+    }
+
+    .about-txt {
+        width: 90%;
+    }
+
+    .about .list-learning li {
+        width: 35%;
+        margin: 2%;
+    }
+
+    .about-cta {
+        width: 100%;
+    }
+
+    .preview .cta-btn, .about-cta .cta-btn {
+        font-size: 1.15rem;
+    }
+
+    .about-img {
+        display: none;
+    }
+
+    .form-news {
+        width: 95%;
+    }
+
+    .footer {
+        min-height: 10vh;
+        height: 100%;
+        max-height: 100%;
+        max-width: 100%;
+    }
+
+    .footer-menu {
+        width: 100%;
+    }
+
+    .footer-copy {
+        font-weight: bold;
+    }
+
+/*
+    .about-txt, .about-me .about-txt p, .about-me img {
+        margin: 2% auto;;
+    }
+
+    .news {
+        height: 100%;
+        margin-bottom: 15%;
+    }
+
+    .form-news {
+        width: 100%;
+        padding: 3%;
+        background-color: whitesmoke;
+        border: 3px #333333 solid;
+        box-shadow: 2px 2px 2px #333333;
+        margin: 2% auto;
+    }
+
+    .form-news label {
+        line-height: 2.25rem;
+    }
+
+    #email a{
+        font-size: 1.25rem;
+    }*/
+}
